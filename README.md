@@ -3,9 +3,9 @@ Instantly change the Wifi Status Icon on the bar Hackintosh
 
 # Open Terminal 
 
-$ sudo cp WifiStatusBar /usr/local/bin/
+$ sudo cp WifiStatusBar /usr/local/bin/WifiStatusBar
 
-$ sudo cp -R StatusBarAppp.app /Library/Application\ Support/WLAN/
+$ sudo cp -R StatusBarAppp.app /Library/Application\ Support/WLAN/StatusBarAppp.app
 
 # Run
 
