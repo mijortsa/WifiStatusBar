@@ -18,7 +18,7 @@ $ WifiStatusBar
 
 https://github.com/mijortsa/WifiStatusBar/assets/908982/65bea304-6176-4003-b1b9-f554310848a7
 
-# Credit Thanks to Chris1111
+# Thanks to Chris1111
 
 https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter
 # Credit Icons 
