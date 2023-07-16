@@ -1,8 +1,9 @@
 # WifiStatusBar
 Instantly change the Wifi Status Icon on the bar Hackintosh
 
-# Open Terminal & Copy to
+# Open Terminal 
 
+$ sudo cp StatusBarAppp.app /Library/Application\ Support/WLAN/
 $ sudo cp WifiStatusBar /usr/local/bin/
 
 # Run
