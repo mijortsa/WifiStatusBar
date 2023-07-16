@@ -18,15 +18,15 @@ echo
 read -p "Selected : " answer
 case ${answer:0:1} in
 	1 )
-		yes | cp -rf "$CP_PATH"blackicns/* "$RES_PATH"
+		sudo cp -rf "$CP_PATH"blackicns/* "$RES_PATH"
 		killall StatusBarApp
 	;;
 	2 )
-		yes | cp -rf "$CP_PATH"whiteicns/* "$RES_PATH"
+		sudo cp -rf "$CP_PATH"whiteicns/* "$RES_PATH"
 		killall StatusBarApp
 	;;
 	3 )
-		yes | cp -rf "$CP_PATH"blueicns/* "$RES_PATH"
+		sudo cp -rf "$CP_PATH"blueicns/* "$RES_PATH"
 		killall StatusBarApp
 	;;
 	Q )
