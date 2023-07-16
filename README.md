@@ -10,5 +10,7 @@ $ sudo cp WifiStatusBar /usr/local/bin/
 $ WifiStatusBar
 
 
-https://github.com/mijortsa/WifiStatusBar/assets/908982/f0b13910-8eb6-42cd-8a84-4c7a033b01b9
+# Video Demo
+
+https://github.com/mijortsa/WifiStatusBar/assets/908982/65bea304-6176-4003-b1b9-f554310848a7
 
