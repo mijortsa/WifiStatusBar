@@ -3,6 +3,8 @@ Instantly change the Wifi Status Icon on the bar Hackintosh
 
 # Open Terminal 
 
+copy kext file to EFI/OC/Kext
+
 $ sudo cp WifiStatusBar /usr/local/bin/WifiStatusBar
 
 $ sudo cp -R WLAN /Library/Application\ Support/WLAN
