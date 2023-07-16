@@ -1,22 +1,23 @@
 #!/bin/bash
 
-#APP_PATH="/Library/Application\ Support/WLAN"
-#CP_PATH="/Library/Application\ Support/WLAN/StatusBarApp.app/icons/"
-#RES_PATH="/Library/Application\ Support/WLAN/StatusBarApp/Contents/Resources/"
+APP_PATH="/Library/Application\ Support/WLAN"
+CP_PATH="/Library/Application\ Support/WLAN/icons/"
+RES_PATH="/Library/Application\ Support/WLAN/StatusBarApp.app/Contents/Resources/"
+
 echo
 echo "=========================================================================="
 echo "Choosing Dark Mode or Light Mode will apply the icon set!"
 echo "=========================================================================="
 echo "Do you wish to:"
-echo "Select 👉 [D] for Dark Mode | or 👉 [L] for Light Mode | [Q]uit"
+echo "Select 👉 [D]ark Icons or 👉 [L]ight Icons | [Q]uit"
 read -p ": " answer
 case ${answer:0:1} in
 	d|D )
-		cp /Library/Application\ Support/WlanIcons/blackicns/* /Library/Application\ Support/WLAN/StatusBarApp.app/Contents/Resources/
+		cp /Library/Application\ Support/WLAN/Icons/blackicns/* /Library/Application\ Support/WLAN/StatusBarApp.app/Contents/Resources/
 		killall StatusBarApp
 	;;
 	l|L )
-		cp /Library/Application\ Support/WlanIcons/whiteicns/* /Library/Application\ Support/WLAN/StatusBarApp.app/Contents/Resources/
+		cp /Library/Application\ Support/WLAN/Icons/whiteicns/* /Library/Application\ Support/WLAN/StatusBarApp.app/Contents/Resources/
 		killall StatusBarApp
 	;;
 	q|Q )
@@ -24,7 +25,7 @@ case ${answer:0:1} in
 	;;
 esac
 echo "==============================="
-echo "Wait for restart StatusBarApp 😜😜😜"
+echo "Wait for Restart StatusBarApp..."
 echo "==============================="
 sleep 5
 open /Library/Application\ Support/WLAN/StatusBarApp.app
