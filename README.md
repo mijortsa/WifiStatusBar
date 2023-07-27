@@ -17,6 +17,8 @@ $ WifiStatusBar
 
 ## Video Demo
 
+- Video integrated in Shortcut.App
+
 https://github.com/mijortsa/WifiStatusBar/assets/908982/69d3bc88-8ba6-426b-a04f-14c2c9eed0c0
 
 Thanks to Chris1111
