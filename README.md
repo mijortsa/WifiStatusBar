@@ -1,25 +1,23 @@
 # WifiStatusBar
 Instantly change the Wifi Status Icon on the bar Hackintosh
 
-
 Open EFI folder
 
 Copy kext (driver) file to EFI/OC/Kext
 
-#  Install
+##  Install
 Open Terminal 
 
 $ ./install.sh
 
-# Run
+## Run
 
 $ WifiStatusBar
 
 
-# Video Demo
+## Video Demo
 
-https://github.com/mijortsa/WifiStatusBar/assets/908982/65bea304-6176-4003-b1b9-f554310848a7
-
+https://github.com/mijortsa/WifiStatusBar/assets/908982/69d3bc88-8ba6-426b-a04f-14c2c9eed0c0
 
 Thanks to Chris1111
 
