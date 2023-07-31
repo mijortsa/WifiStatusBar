@@ -38,4 +38,4 @@ echo "Restart StatusBarApp..."
 echo "==============================="
 sleep 5
 open "$APP_PATH"
-#launchctl reboot logout
+pkill -a Terminal
